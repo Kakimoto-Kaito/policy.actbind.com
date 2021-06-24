@@ -7,11 +7,8 @@
     text-decoration: none!important;
     }
 
-  a:hover {
-    color: black;
-  }
-  a:active {
-    color: black;
+  .row {
+    margin: 25px;
   }
   
   header {
@@ -39,29 +36,38 @@
     margin: 0px auto;
   }
 
-  .terms-privacy-contentu {
-    margin: 10px 0px 50px 0px;
+  h1 {
+    font-family: Arial Rounded MT Bold;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin: 50px 0px;
   }
 
-  .contents {
-    margin: 50px 0px ;
+  p {
+    font-size: 18px;
+    color: black;
+    text-align: left;
   }
-  
-  .terms-privacy-img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .terms-privacy-title {
+
+  h2 {
     font-size: 25px;
     color: black;
-    margin: 10px 0px;
+    text-align: left;
   }
 
-  .terms-privacy-text {
-    font-size: 15px;
-    color: darkgray;
-    margin-bottom: 0px;
+  h3 {
+    font-size: 18px;
+    color: black;
+    text-align: left;
+  }
+
+  .main-ul {
+     padding-left: 50px;
+  }
+
+  .main-li {
+    padding: 10px 0px;
   }
   
   footer {
