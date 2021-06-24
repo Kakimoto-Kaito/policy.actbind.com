@@ -2,6 +2,17 @@
 .text-left {
     text-align: left;
   }
+
+  a {
+    text-decoration: none!important;
+    }
+
+  a:hover {
+    color: black;
+  }
+  a:active {
+    color: black;
+  }
   
   header {
     height: 90px;
@@ -27,6 +38,31 @@
     width: 100%;
     margin: 0px auto;
   }
+
+  .news-contentu {
+    margin: 10px 0px 50px 0px;
+  }
+
+  .contents {
+    margin: 50px 0px ;
+  }
+  
+  .news-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .news-text {
+    font-size: 25px;
+    color: black;
+    margin: 10px 0px;
+  }
+
+  .news-text-date {
+    font-size: 15px;
+    color: darkgray;
+    margin-bottom: 0px;
+  }
   
   footer {
     height: 100px;
@@ -40,4 +76,25 @@
     color: grey;
     text-align: left;
     margin: 40px 0px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .inline {
+    text-align: center;
+    margin: 40px 0px;
+  }
+  
+  .inline li {
+    display: inline;
+  }
+  
+  li {
+    display: inline-block;
+    width: 30px;
+    height: auto;
+    margin: 10px;
   }

@@ -2,6 +2,17 @@
 .text-left {
     text-align: left;
   }
+
+  a {
+    text-decoration: none!important;
+    }
+
+  a:hover {
+    color: black;
+  }
+  a:active {
+    color: black;
+  }
   
   header {
     height: 90px;
